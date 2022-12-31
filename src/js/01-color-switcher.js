@@ -20,13 +20,13 @@ function onStartBtnClick() {
 
   bodyBackgroundTimerID = setInterval(changeBodyBackground, 1000);
   isBodyBackgroundIntervalWorks = true;
-  console.log('Started');
+  //   console.log('Started');
 }
 
 function onStopBtnClick() {
-  console.log('Stoppped');
   clearInterval(bodyBackgroundTimerID);
   isBodyBackgroundIntervalWorks = false;
+  //   console.log('Stoppped');
 }
 
 function changeBodyBackground() {
